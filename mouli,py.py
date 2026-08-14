@@ -72,6 +72,15 @@ sqrt=math.sqrt(no)
 
 print("Sq root:",sqrt)
 
+#6(simple interest and compund interest)
+
+p=float(input("Enter principal amount:"))
+r=float(input("Enter rate of interest:"))
+t=float(input("Enter time:"))
+print("Simple interest:",p*r*t/100)
+print("compund interest:",p*(1+r/100)**t-p)        
+
+
 #7Assignment operator 
 
 x=5
